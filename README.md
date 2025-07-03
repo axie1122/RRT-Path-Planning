@@ -1,6 +1,6 @@
 # Rapidly Exploring Random Trees (RRT) – Path Planning Optimization
 
-## 🚀 Project Summary
+## Project Summary
 
 This project features a complete NumPy implementation of the **Rapidly Exploring Random Trees (RRT)** algorithm for flight path planning.
 
@@ -8,20 +8,20 @@ Last semester, the original algorithm was found to be incorrect, leading to inco
 
 ---
 
-## 🧠 Key Improvements
+## Key Improvements
 
-- ✅ Fixed algorithmic bugs and logic errors from previous implementation
-- 🧩 Added support for **RRT\*** — a more advanced version of RRT that rewires paths as better ones are discovered
-- 📉 Optimized the algorithm with **dynamic path rewiring** to lower the cost of the planned route
-- 🎯 Achieved up to **200 unit reduction in path cost**
-- ⚡ Fast planning — algorithm completes in **under 5 seconds** with proper tuning
-- 🖥️ GUI enhancements:
+-  Fixed algorithmic bugs and logic errors from previous implementation
+-  Added support for **RRT\*** — a more advanced version of RRT that rewires paths as better ones are discovered
+-  Optimized the algorithm with **dynamic path rewiring** to lower the cost of the planned route
+-  Achieved up to **200 unit reduction in path cost**
+-  Fast planning — algorithm completes in **under 5 seconds** with proper tuning
+-  GUI enhancements:
   - Planned paths and boundaries are now clearly visible
   - Improved interactivity and debugging support
 
 ---
 
-## 📊 Results
+##  Results
 
 | Metric               | Before        | After         |
 |----------------------|---------------|---------------|
@@ -30,15 +30,15 @@ Last semester, the original algorithm was found to be incorrect, leading to inco
 
 ---
 
-## 🖼️ Visualizations
+##  Visualizations
 
 ### Algorithm Performance Before and After Optimization
 
-![Flight Path Improvements](Screenshot%202025-07-03%20at%202.02.52%E2%80%AFPM.png)
+![Flight Path Improvements](assets/flight_path.png)
 
 ---
 
-## 🧩 Code Highlight
+##  Code Highlight
 
 The RRT* implementation rewires paths dynamically when a shorter path is discovered:
 ```python
